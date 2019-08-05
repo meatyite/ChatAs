@@ -18,6 +18,7 @@ public class ChatAsCommand implements CommandExecutor
             if (!player.isOp())
             {
                 utils.showErrorToPlayer(ChatAsUtils.noOPError);
+                return true;
             }
             if (command.getName().equals("chatas"))
             {
